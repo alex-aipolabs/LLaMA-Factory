@@ -706,7 +706,7 @@
     "folder": "python"
   },
   "xlam": {
-    "file_name": "xlam_sharegpt_format.json",
+    "hf_hub_url": "Aipolabs/xlam_function_calling_60k",
     "formatting": "sharegpt",
     "columns": {
       "messages": "conversations",
