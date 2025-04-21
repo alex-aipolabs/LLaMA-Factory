@@ -1,5 +1,5 @@
 ### model
-model_name_or_path: deepseek-ai/deepseek-coder-instruct
+model_name_or_path: deepseek-ai/deepseek-coder-1.3b-instruct
 trust_remote_code: true
 flash_attn: auto
 
@@ -15,7 +15,7 @@ lora_target: all
 ### dataset
 dataset_dir: data
 dataset: xlam
-template: deepseek-coder-instruct
+template: deepseek
 cutoff_len: 2048
 max_samples: 100000
 preprocessing_num_workers: 16
