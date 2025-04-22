@@ -14,7 +14,7 @@ lora_target: all
 
 ### dataset
 dataset_dir: data
-dataset: xlam
+dataset: xlam-function-calling-60k-sharegpt-single
 template: deepseek
 cutoff_len: 2048
 max_samples: 100000
