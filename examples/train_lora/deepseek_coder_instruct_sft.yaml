@@ -21,7 +21,7 @@ max_samples: 100000
 preprocessing_num_workers: 16
 
 ### output
-output_dir: saves/deepseek-coder-instruct/deepseek-coder-instruct/lora/xlam1
+output_dir: saves/deepseek-coder-1.3b-instruct/lora/xlam
 logging_steps: 1
 save_steps: 100
 plot_loss: true
