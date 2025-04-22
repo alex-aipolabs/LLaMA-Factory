@@ -705,7 +705,7 @@
     },
     "folder": "python"
   },
-  "xlam-function-calling-60k-sharegpt": {
+  "xlam_function_calling_60k_sharegpt": {
     "hf_hub_url": "Aipolabs/xlam-function-calling-60k-sharegpt",
     "formatting": "sharegpt",
     "columns": {
@@ -719,8 +719,8 @@
       "function_tag": "function_call"
     }
   },
-  "xlam-function-calling-60k-sharegpt-split": {
-    "hf_hub_url": "Aipolabs/xlam-function-calling-60k-sharegpt-split",
+  "xlam_function_calling_60k_sharegpt_single": {
+    "hf_hub_url": "Aipolabs/xlam-function-calling-60k-sharegpt-single",
     "formatting": "sharegpt",
     "columns": {
       "messages": "conversations",
