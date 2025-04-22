@@ -705,8 +705,22 @@
     },
     "folder": "python"
   },
-  "xlam": {
-    "hf_hub_url": "Aipolabs/xlam-function-calling-60k",
+  "xlam-function-calling-60k-sharegpt": {
+    "hf_hub_url": "Aipolabs/xlam-function-calling-60k-sharegpt",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "conversations",
+      "tools": "tools"
+    },
+    "tags": {
+      "role_tag": "from",
+      "content_tag": "value",
+      "user_tag": "human",
+      "function_tag": "function_call"
+    }
+  },
+  "xlam-function-calling-60k-sharegpt-split": {
+    "hf_hub_url": "Aipolabs/xlam-function-calling-60k-sharegpt-split",
     "formatting": "sharegpt",
     "columns": {
       "messages": "conversations",
