@@ -1,0 +1,13 @@
+### Note: DO NOT use quantized model or quantization_bit when merging lora adapters
+
+### model
+model_name_or_path: deepseek-ai/deepseek-coder-1.3b-instruct
+adapter_name_or_path: saves/deepseek-coder-1.3b-instruct/lora/xlam
+template: deepseek
+trust_remote_code: true
+
+### export
+export_dir: output/deepseek_coder_1.3b-instruct_sft
+export_size: 5
+export_device: cpu  # choices: [cpu, auto]
+export_legacy_format: false
